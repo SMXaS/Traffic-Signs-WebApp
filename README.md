@@ -1,6 +1,8 @@
 # MACHINE LEARNING-FLASK-PYTHON-GAME
  * MACHINE LEARNING GAME WHERE YOU CAN LEARN TRAFFIC SIGNS
 
+![](/Main_Page.PNG)
+
 ## Usage
 * All the usage is commented with a code
 
