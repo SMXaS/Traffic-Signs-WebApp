@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+</head>
+
+<body class="d-flex h-100 text-center text-white bg-dark">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column" style="max-width: 42em">
+      <header>
+          <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+              <a class="navbar-brand " href="/main">Flask Blog</a>
+                <!-- Navbar Right Side -->
+                <div class="navbar-nav">
+                  <a class="nav-link" href="/main" style="color:white">Home</a>
+                  <a class="nav-link" href="/info" style="color:white">About Game</a>
+                </div>
+              </div>
+          </nav>
+      </header>
+      {%block content%}  {%endblock%}
+  </div>
+</body >
+</html>

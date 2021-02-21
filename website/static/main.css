@@ -1,0 +1,58 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    background: url("https://cdn.pixabay.com/photo/2015/12/07/19/48/abstract-1081281_1280.jpg");
+  }
+  
+  h1, h2, h3, h4, h5, h6, a {
+    color: white;
+    font-family: 'Reggae One', cursive;
+  }
+  
+  /*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+.view__landing__logo {
+  width:12em; 
+  height:12em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+/*
+ * Base structure
+ */
+/*
+ * Header
+ */
+
+.mainsec cont{
+
+  margin-top: 50px;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.containerLocation {
+  margin-top: -50px;
+}
+
+.edit {
+  padding-top: 80px;
+}
