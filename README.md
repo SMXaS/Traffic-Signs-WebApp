@@ -11,8 +11,8 @@
  * Jupyter Notebook
  * Python 3.8.7 64-bit
  * Flask
- * HTML
- * CSS
+ * HTML5
+ * CSS3
  * Sklearn
  * Numpy
  * Tensorflow
