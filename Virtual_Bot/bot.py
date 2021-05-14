@@ -24,5 +24,8 @@ output = gTTS(text=goodbye_text, lang=language, slow=False)
 # Save goodbye to audio
 output.save("goodbye.mp3")
 
-# Testing with audio play
+# Testing with audio play of welcome text
 os.system("start welcome.mp3")
+
+# Testing with audio play of goodbye text
+os.system("start goodbye.mp3")
