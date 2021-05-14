@@ -1,0 +1,41 @@
+{%extends "layout.html" %}
+{%block content%}
+
+<div class="cover-container containerLocation">
+    <div class="mainsec" style="margin-top: 150px;">
+        <main class="px-3 infopage" style=" text-align: left">
+            <!-- Header -->
+            <h3 style="font-family: 'Reggae One', cursive; margin-top: 50px;">Welcome to the Machine Learning Guessing Game</h3>
+            <!-- Sub Heading -->
+            <p class="lead" style="margin-top: 40px;">This game will teach you to remmember traffic signs
+            or prepare for theory exam in driving school!</p>
+
+            <video style="margin-top: 20px;" id="video" autoplay></video>
+            <script>
+            navigator.mediaDevices.getUserMedia({
+            video: {
+            width: {
+            min: 640,
+            max: 640
+            },
+            height: {
+            min: 480,
+            max: 480
+            }
+            }
+            })
+            .then(stream =>{
+            document.getElementById("video").srcObject = stream;
+            })             
+            </script>
+
+        <!-- Data Privacy Footer -->
+        <footer style="margin-top: 80px; margin-left: 150px;">&#9432; This Program Does Not Gather Any Data!</footer>
+        <!-- Copyright Footer -->
+        <footer style="margin-top: 10px; margin-left: 220px;">&copy; 2021 Arnoldas Jurkus</footer>
+    </div>
+</div>
+
+
+
+  {%endblock%}
